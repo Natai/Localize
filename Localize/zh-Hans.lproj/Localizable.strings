@@ -1,9 +1,25 @@
-/* 根视图 */
-"根视图" = "根视图";
-
-/* 第几个视图 */
-"排行%d视图" = "排行第%d视图";
+/* 第1个视图
+   第2个视图 */
+"视图%d" = "视图%d";
 
 /* 语言设置 */
 "语言" = "语言";
+
+/* No comment provided by engineer. */
+"bundle图片的国际化" = "bundle图片国际化";
+
+/* No comment provided by engineer. */
+"code assets color" = "代码调用的assets动态颜色";
+
+/* No comment provided by engineer. */
+"code custom color" = "自定义动态颜色";
+
+/* No comment provided by engineer. */
+"code darkMode assets" = "代码调用暗黑模式图片";
+
+/* No comment provided by engineer. */
+"code layer cgcolor" = "代码调用的动态cgcolor";
+
+/* No comment provided by engineer. */
+"code system color" = "代码调用的系统动态颜色";
 

@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "assets_img_invest_light@3x-1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "assets_img_invest@3x.png",
+      "filename" : "assets_img_invest_light@3x.png",
       "appearances" : [
         {
           "appearance" : "luminosity",
@@ -17,7 +18,7 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "assets_img_leverage@3x.png",
+      "filename" : "assets_img_invest_dark@3x.png",
       "appearances" : [
         {
           "appearance" : "luminosity",

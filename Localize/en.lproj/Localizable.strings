@@ -1,9 +1,10 @@
-/* 根视图 */
-"根视图" = "Root Controller";
+/* 第1个视图
+   第2个视图 */
+"视图%d" = "NO.%d Controller";
 
-/* 第几个视图 */
-"排行%d视图" = "NO.%d Controller";
+/* 语言设置 */
+"语言" = "Language";
 
 /* No comment provided by engineer. */
-"语言" = "Language";
+"bundle图片的国际化" = "bundle localize image";
 

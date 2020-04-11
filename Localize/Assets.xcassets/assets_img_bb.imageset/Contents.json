@@ -2,18 +2,19 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "assets_img_bb_en-1.png",
       "scale" : "1x"
     },
     {
       "locale" : "en",
       "idiom" : "universal",
-      "filename" : "assets_img_fb.png",
+      "filename" : "assets_img_bb_en.png",
       "scale" : "1x"
     },
     {
       "locale" : "zh-Hans",
       "idiom" : "universal",
-      "filename" : "assets_img_bb.png",
+      "filename" : "assets_img_bb_zh-Hans.png",
       "scale" : "1x"
     },
     {

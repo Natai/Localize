@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     override init() {
         super.init()
         Bundle.swizzlingLocalize()
+        UIView.swizzlingInterfaceCallback()
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -31,9 +32,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     @objc private func setWindowRootController() {
         let root = RootViewController()
-        root.title = NSLocalizedString("根视图", comment: "根视图")
+        root.title = NSLocalizedString("视图%d", comment: "第1个视图").localizedFormat(1)
         let first = FirstViewController()
-        first.title = NSLocalizedString("排行%d视图", comment: "第几个视图").localizedFormat(1)
+        first.title = NSLocalizedString("视图%d", comment: "第1个视图").localizedFormat(2)
         let second = SecondViewController()
         let nav = UINavigationController(rootViewController: root)
         window?.rootViewController = nav

@@ -18,8 +18,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这太难了" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xr1-rj-rHj">
-                    <rect key="frame" x="172.5" y="437.5" width="69.5" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="assets图片的国际化（无效的）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xr1-rj-rHj">
+                    <rect key="frame" x="87" y="264" width="240" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -33,10 +33,10 @@
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
+                <constraint firstItem="xr1-rj-rHj" firstAttribute="top" secondItem="Gni-EJ-xs1" secondAttribute="bottom" constant="20" id="0jG-LG-RjO"/>
                 <constraint firstItem="Gni-EJ-xs1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="1d3-Ia-4us"/>
                 <constraint firstItem="Gni-EJ-xs1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LmR-1W-E4m"/>
                 <constraint firstItem="xr1-rj-rHj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="TSb-et-J7M"/>
-                <constraint firstItem="xr1-rj-rHj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="r1Z-V8-MeM"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="132" y="123"/>

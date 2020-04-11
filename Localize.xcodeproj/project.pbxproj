@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23621E6F02E7DD315C2697C7 /* Pods_Localize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77E9890019C506F36CAF0E9 /* Pods_Localize.framework */; };
+		C11497392441646C00D33072 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11497382441646C00D33072 /* UIView+Extension.swift */; };
 		C1A6460B243DB65E004144D5 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A6460A243DB65E004144D5 /* Localize.swift */; };
 		C1DE7664243F02E3000CFDA8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DE7663243F02E3000CFDA8 /* UIColor+Extension.swift */; };
 		C1DEA1BB243C2EFC007AD4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DEA1BA243C2EFC007AD4F4 /* AppDelegate.swift */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		10850EAAD9B1B0C635E13A53 /* Pods-Localize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Localize.debug.xcconfig"; path = "Target Support Files/Pods-Localize/Pods-Localize.debug.xcconfig"; sourceTree = "<group>"; };
+		C11497382441646C00D33072 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C114973D2441B8AC00D33072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1A6460A243DB65E004144D5 /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
 		C1DE7663243F02E3000CFDA8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C1DEA1B7243C2EFC007AD4F4 /* Localize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Localize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +113,7 @@
 				C1DEA1F8243C74FF007AD4F4 /* Bundle+Swizzling.swift */,
 				C1DEA1F6243C7254007AD4F4 /* NSObject+Extension.swift */,
 				C1DE7663243F02E3000CFDA8 /* UIColor+Extension.swift */,
+				C11497382441646C00D33072 /* UIView+Extension.swift */,
 				C1DEA1BA243C2EFC007AD4F4 /* AppDelegate.swift */,
 				C1DEA1CF243C2F7C007AD4F4 /* RootViewController.swift */,
 				C1DEA1E6243C316A007AD4F4 /* RootViewController.xib */,
@@ -249,6 +253,7 @@
 				C1DEA1F7243C7254007AD4F4 /* NSObject+Extension.swift in Sources */,
 				C1DEA1F9243C74FF007AD4F4 /* Bundle+Swizzling.swift in Sources */,
 				C1DEA1D1243C2F7C007AD4F4 /* FirstViewController.swift in Sources */,
+				C11497392441646C00D33072 /* UIView+Extension.swift in Sources */,
 				C1DEA1D2243C2F7C007AD4F4 /* RootViewController.swift in Sources */,
 				C1DEA1D3243C2F7C007AD4F4 /* SecondViewController.swift in Sources */,
 				C1DEA1BB243C2EFC007AD4F4 /* AppDelegate.swift in Sources */,
@@ -282,6 +287,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C1DEA1E1243C310E007AD4F4 /* zh-Hans */,
+				C114973D2441B8AC00D33072 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

@@ -1,3 +1,15 @@
-/* Class = "UIButton"; normalTitle = "推出"; ObjectID = "2bW-Ze-m8a"; */
+/* Class = "UILabel"; text = "xib system clor"; ObjectID = "0WT-65-xCc"; */
+"0WT-65-xCc.text" = "xib调用的系统动态颜色";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2bW-Ze-m8a"; */
 "2bW-Ze-m8a.normalTitle" = "推出";
+
+/* Class = "UILabel"; text = "xib darkMode assets"; ObjectID = "ab6-PA-ZXM"; */
+"ab6-PA-ZXM.text" = "xib调用暗黑模式图片";
+
+/* Class = "UILabel"; text = "xib assets clor"; ObjectID = "mJX-kw-5xI"; */
+"mJX-kw-5xI.text" = "xib调用的assets动态颜色";
+
+/* Class = "UILabel"; text = "xib layer cgcolor"; ObjectID = "vbH-Ph-M6o"; */
+"vbH-Ph-M6o.text" = "xib调用的动态cgcolor";
 
